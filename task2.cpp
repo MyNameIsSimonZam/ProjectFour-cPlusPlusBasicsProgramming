@@ -9,10 +9,8 @@
 
 void task2() {
 	int speed = 0;
-	int distantion = 200;
-	int time = 2;
 
-	std::cout << "This program can tell you will you come in Ryazan on time or not?";
+	std::cout << "This program can tell you will you come in Ryazan on time or not";
 	std::cout << "Give me your speed: ";
 	std::cin >> speed;
 
@@ -20,7 +18,7 @@ void task2() {
 		std::cout << "Вы приехали";
 	}
 	if (speed < 100) {
-		std::cout << "You'll not able to come on time";
+		std::cout << "You'll not able to come on time" << "\n";
 	}
-	}
+}
 
