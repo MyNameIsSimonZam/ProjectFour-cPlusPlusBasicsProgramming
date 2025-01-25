@@ -20,9 +20,9 @@ void practicalWork3() {
 	int remainder = a % 2;
 	std::cout << remainder << "\n";
 	if (abs(remainder) == 1) {
-		std::cout << "Number " << a << " - is odd нечетное" << "\n";
+		std::cout << "Number " << a << " - is odd" << "\n";
 	}
 	else {
-		std::cout << "Number " << a << " - is even четное" << "\n";
+		std::cout << "Number " << a << " - is even" << "\n";
 	}
 }
