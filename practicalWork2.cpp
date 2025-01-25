@@ -24,14 +24,14 @@ void practicalWork2() {
 	int a = 0;
 	int b = 0;
 	int result = 0;
-	std::cout << "This program checks how you count in your mind";
+	std::cout << "This program checks how you count in your mind" << "\n";
 	std::cout << "Give me first number: ";
 	std::cin >> a;
 	std::cout << "Give me second number: ";
 	std::cin >> b;
 	std::cout << "Give me second number: ";
 	std::cin >> result;
-	std::cout << "-----Проверяем-----" << "\n";
+	std::cout << "-----Checking-----" << "\n";
 	if (a + b == result) {
 		std::cout << "Excellent! You are right!" << "\n";
 	}
