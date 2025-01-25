@@ -10,7 +10,7 @@ void task3() {
 	int count = 0;
 
 	std::cout << "This program make a module";
-	std::cout << "Give me your nomber: ";
+	std::cout << "Give me your number: ";
 	std::cin >> count;
 	std::cout << "Your number is : " << count << "\n";
 	std::cout << "Your number module is : " << abs(count) << "\n";

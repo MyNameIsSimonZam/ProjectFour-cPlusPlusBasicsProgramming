@@ -19,20 +19,24 @@
 */
 
 void task4() {
-	int allMen = 9000;
-	int barbersHave = 10;
+	int allMen = 0;
+	int barbersHave = 0;
 	int barberShift = 8;
-	//std::cout << "How many men live in the town?" << "\n";
-	//std::cin >> allMen; позже открыть
-	//std::cout << "How many barbers work in the town?";
-	//std::cin >> barbersHave; позже открыть
+	std::cout << "How many men live in the town?" << "\n";
+	std::cin >> allMen;
+	std::cout << "How many barbers work in the town?";
+	std::cin >> barbersHave;
 	int menForOneBarber = barberShift * 30;
 	int barbersNeed = (allMen + menForOneBarber - 1) / menForOneBarber;
 	std::cout << "We need " << barbersNeed << " barbers";
 
 	if (barbersNeed > barbersHave) {
-		std::cout << "We don't have enaught barbers";
+		std::cout << "We don't have enough barbers";
 	}
+	if (barbersNeed <= barbersHave) {
+		std::cout << "We have enough barbers";
+	}	
+
 
 
 

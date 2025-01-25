@@ -4,8 +4,8 @@ void task1();
 void task2();
 void task3();
 void task4();
-//void practicalWork1();
-//void practicalWork2();
+void practicalWork1();
+void practicalWork2();
 //void practicalWork3();
 //void practicalWork4();
 
@@ -38,12 +38,12 @@ int main() {
     case 4:
         task4();
         break;
-    //case 5:
-    //    practicalWork1();
-    //    break;
-    //case 6:
-    //    practicalWork2();
-    //    break;
+    case 5:
+        practicalWork1();
+        break;
+    case 6:
+        practicalWork2();
+        break;
     //case 7:
     //    practicalWork3();
     //    break;
