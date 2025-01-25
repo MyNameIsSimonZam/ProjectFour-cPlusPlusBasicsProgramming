@@ -36,9 +36,5 @@ void task4() {
 	if (barbersNeed <= barbersHave) {
 		std::cout << "We have enough barbers";
 	}	
-
-
-
-
 }
 
