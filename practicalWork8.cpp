@@ -46,5 +46,4 @@ void practicalWork8() {
 	}
 
 	std::cout << "Average salary: " << avg;
-
 }
