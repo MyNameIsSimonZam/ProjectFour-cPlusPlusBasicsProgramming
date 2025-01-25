@@ -10,6 +10,7 @@ void practicalWork3();
 void practicalWork4();
 void practicalWork5();
 void practicalWork6();
+void practicalWork7();
 
 
 int main() {
@@ -26,6 +27,7 @@ int main() {
 	std::cout << "8. practical work 4\n";
 	std::cout << "9. practical work 5\n";
 	std::cout << "10. practical work 6\n";
+	std::cout << "11. practical work 7\n";
 	std::cout << "Enter your choice: ";
 	std::cin >> choice;
 
@@ -59,6 +61,9 @@ int main() {
 		break;
 	case 10:
 		practicalWork6();
+		break;
+	case 11:
+		practicalWork7();
 		break;
 	default:
 		std::cout << "Invalid choice. Exiting...\n";

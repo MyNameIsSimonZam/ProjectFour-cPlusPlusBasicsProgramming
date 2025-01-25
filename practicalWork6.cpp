@@ -31,7 +31,7 @@ void practicalWork6() {
 
     // Сколько нужно барберов чтобы постричь menCount человек в месяц?
     int requiredBarbersCount = menCount / menPerBarberPerMonth;
-    if (menCount % menPerBarberPerMonth != 0) {
+    if (menCount % menPerBarberPerMonth != 0) {  // ИЗМЕНЕНИЕ С ПРИМЕНЕНИЕМ ОПЕРАТОРА %
         requiredBarbersCount += 1;
     }
     std::cout << "Необходимое число барберов: " << requiredBarbersCount << "\n";
